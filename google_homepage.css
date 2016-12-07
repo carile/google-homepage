@@ -1,0 +1,100 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+}
+a:link {
+  color: rgb(109,109,109);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(109,109,109);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active{
+  color: red;
+  text decoration: underline;
+}
+#promolink a:link {
+  color: rgb(28,27,168);
+  align-items: center;
+}
+#sign_in{
+  background-color: rgb(73,135,235);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 15px 8px 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 0;
+}
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+.top_nav{
+  float: right;
+}
+
+.input {
+  height: 25px;
+  width: 500px;
+  border-radius: 2px;
+  border-color: rgb(235,235,235);
+}
+.button {
+  border-radius: 2px;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  background-color: rgb(242,242,242);
+  color: rgb(117,117,117);
+  font-weight: bold;
+  padding: 8px 15px 8px 15px;
+  margin: 30px 5px 10px 5px;
+}
+.button:hover {
+  color: black;
+  border-style: solid;
+  border-color: rgb(117,117,117);
+  border-width: thin;
+}
+.center {
+  position: absolute;
+  top: 330px;
+  left: 200px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.img {
+  display= block;
+  position: absolute;
+  top: 200px;
+  left: 320px;
+
+  height: 92px;
+  width: 272px;
+}
+.bottom_nav {
+  background-color: rgb(242,242,242);
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgb(228,228,228);
+  position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+#first {
+  float: left;
+}
+#second {
+  float: right;
+}
